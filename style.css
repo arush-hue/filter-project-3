@@ -1,0 +1,24 @@
+body
+{
+    font-family: 'Otomanopee One', sans-serif;
+    font-weight: bold;
+}
+h3
+{
+    font-size: 25px !important;
+}
+button:hover
+{
+    background-color: black;
+}
+canvas
+{
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes example
+{
+    from{box-shadow: 1px 1px 38px purple;}
+        to{box-shadow: 1px 1px 38px goldenrod}
+}
